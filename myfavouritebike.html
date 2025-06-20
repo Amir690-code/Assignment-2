@@ -1,0 +1,59 @@
+<!-- myfavouritebike.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favourite Bike</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>My Favourite Bike
+    <button class="toggle" onclick="toggleDarkMode()">🌙</button>
+  </header>
+  <nav class="navbar underline">
+    <div class="container">
+      <a href="home.html">Home</a>
+      <a href="mylife.html">Biodata</a>
+      <a href="about.html">Experience</a>
+      <a href="myfamily.html"> Family</a>
+      <a href="photo.html">Photos</a>
+      <a href="myfavouritebike.html">My Favourite Bike</a>
+    </div>
+  </nav>
+  <center><main class="card container">
+    <h2>My Favourite Bikes</h2>
+    <p>I love motorcycles, especially sport bikes for their speed, design, and engineering. Here are my favourite bikes:</p>
+
+    <div class="card">
+      <h3>Kawasaki KR150</h3>
+      <img src="image/kawasaki_kr150.jpg" width="350" height="350" alt="Kawasaki KR150">
+      <p><strong>Engine:</strong> 150cc, 2-Stroke, Single Cylinder</p>
+      <p><strong>Top Speed:</strong> 180 km/h</p>
+      <p><strong>Description:</strong> A legendary 2-stroke sports bike known for its lightweight body, powerful performance, and cult status among enthusiasts.</p>
+    </div>
+   <div class="card">
+      <h3>Yamaha MT-25</h3>
+      <img src="image/yamaha_mt25.jpg" width="350" height="350" alt="Yamaha MT-25">
+      <p><strong>Engine:</strong> 250cc, Twin Cylinder</p>
+      <p><strong>Top Speed:</strong> 170 km/h</p>
+      <p><strong>Description:</strong> A modern naked bike designed for agility and city riding with aggressive styling and comfortable ergonomics.</p>
+    </div>
+
+    <div class="card">
+      <h3>Suzuki Gixxer 250 SF</h3>
+      <img src="image/suzuki_gixxer250sf.jpg" width="350" height="350" alt="'Suzuki Gixxer 250 SF">
+      <p><strong>Engine:</strong> 249cc, Single Cylinder</p>
+      <p><strong>Top Speed:</strong> 155 km/h</p>
+      <p><strong>Description:</strong> A full-faired sport bike offering excellent fuel efficiency, refined performance, and stylish aerodynamic design.</p>
+    </div>
+</center>
+  </main>
+  <footer>© 2025 Muhammad Amir Iskandar Bin Aidi</footer>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>

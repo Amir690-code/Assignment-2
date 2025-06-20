@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>My Personal Website
+    <button class="toggle" onclick="toggleDarkMode()">🌙</button>
+  </header>
+  <nav class="navbar underline">
+    <div class="container">
+    <a href="home.html">Home</a>
+      <a href="mylife.html">Biodata</a>
+      <a href="about.html">Experience</a>
+      <a href="myfamily.html"> Family</a>
+      <a href="photo.html">Photos</a>
+      <a href="myfavouritebike.html">My Favourite Bike</a>
+    </div>
+  </nav>
+  <main>
+    <div class="card container">
+      <img src="images/myphoto.jpg" alt="My Photo">
+      <h2>HELLO WELCOME TO MY PERSONAL WEBSITE</h2>
+      <p>Name: Muhammad Amir Iskandar Bin Aidi</p>
+      <p>Date of Birth: [Your DOB]</p>
+      <p>Address: [Your Address]</p>
+      <p>Email: [Your Email]</p>
+    </div>
+  </main>
+  <footer>© 2025 Muhammad Amir Iskandar Bin Aidi</footer>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>

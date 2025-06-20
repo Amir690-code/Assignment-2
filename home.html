@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- VIDEO BACKGROUND -->
+  <div class="video-background">
+    <video class="video-slide active" autoplay muted loop>
+      <source src="video/video2.mp4" type="video/mp4">
+    </video>
+  </div>
+  <header>Home
+    <button class="toggle" onclick="toggleDarkMode()">🌙</button>
+  </header>
+  <nav class="navbar underline">
+    <div class="container">
+      <a href="home.html">Home</a>
+      <a href="mylife.html">Biodata</a>
+      <a href="about.html">Experience</a>
+      <a href="myfamily.html"> Family</a>
+      <a href="photo.html">Photos</a>
+      <a href="myfavouritebike.html">My Favourite Bike</a>
+    </div>
+  </nav>
+  <main>
+  <center><img src="image/amir-background.jpg" width="350" height="350" alt="My Background" class="background-image"></center>
+  <center><main class="card container">
+    <h2><p style=" color: #fdfdfdec ;">Welcome to My Home Page</p></h2>
+    <h2><p style=" color: #fdfdfdec ;">Hello, My Name is Amir Iskandar</p></h2>
+    <p style=" color: #fdfdfdec ;">Welcome to my personal space where you can explore my life, family, and photos.</p>
+  </center>
+  </main>
+  <footer>© 2025 Muhammad Amir Iskandar Bin Aidi</footer>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
